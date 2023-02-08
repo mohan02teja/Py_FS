@@ -142,7 +142,7 @@ def PSO(num_agents, max_iter, train_data, train_label, obj_function=compute_fitn
     print('Leader ' + agent_name + ' Dimension : {}'.format(int(np.sum(Leader_agent))))
     print('Leader ' + agent_name + ' Features : \n')
     for feature in Leader_agent:
-        print(feature + ' ')
+        print('{}'.int(feature))
     print('\n')
     print('Leader ' + agent_name + ' Fitness : {}'.format(Leader_fitness))
     print('Leader ' + agent_name + ' Classification Accuracy : {}'.format(Leader_accuracy))
